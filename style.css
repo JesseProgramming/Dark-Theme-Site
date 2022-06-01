@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#background-grad{
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(63deg, rgba(0,0,0,1) 0%, rgba(23,24,24,1) 18%, rgba(41,44,46,1) 42%, rgba(34,36,37,1) 69%, rgba(58,62,65,1) 100%);
+    background: -webkit-linear-gradient(63deg, rgba(0,0,0,1) 0%, rgba(23,24,24,1) 18%, rgba(41,44,46,1) 42%, rgba(34,36,37,1) 69%, rgba(58,62,65,1) 100%);
+    background: linear-gradient(63deg, rgba(0,0,0,1) 0%, rgba(23,24,24,1) 18%, rgba(41,44,46,1) 42%, rgba(34,36,37,1) 69%, rgba(58,62,65,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#3a3e41",GradientType=1);
+    background-repeat: no-repeat;
+    opacity: 0.99;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+#main-content{
+    height: 100vh;
+}
+
+body{
+    
+
+    }
+p, h1, h2, h3, h4, a{
+    padding: 8px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    background: rgb(209,146,8);
+    background: -moz-linear-gradient(53deg, rgba(209,146,8,1) 0%, rgba(228,184,88,1) 100%);
+    background: -webkit-linear-gradient(53deg, rgba(209,146,8,1) 0%, rgba(228,184,88,1) 100%);
+    background: linear-gradient(53deg, rgba(209,146,8,1) 0%, rgba(228,184,88,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d19208",endColorstr="#e4b858",GradientType=1);
+    border-radius: 17px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    margin: 10px;
+}
+button:hover{
+    cursor: pointer;
+    outline: 2px solid rgb(248, 211, 131);
+}
+
+form{
+    margin: 8px;
+}
+input{
+    margin: 3px;
+    padding: 8px;
+    color: white;
+    font-size: 1em;
+    height: 20px;
+    width: 350px;
+    border-radius: 3px;
+    border-style: none;
+    outline: none;
+    background-color: rgb(58, 58, 59);
+    border: 1px solid rgb(164, 169, 179);
+}
+input:focus{
+    border-bottom: 3px solid rgb(228, 184, 88);
+}
+#background-overlay{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("background.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+}
